@@ -1,0 +1,84 @@
+
+
+/* Css for all fonts */
+nav ,  {
+  font-size: 16px;
+}
+body {
+  background-color: #ffffff;
+  color: #000000;
+  line-height: 1.2;
+}
+
+h1 {
+font-size: 2em;
+}
+h3 {
+  font-size: 20px;
+}
+p {
+  font-size: 16px;
+}
+figcaption {
+  font-size: 14px;
+}
+
+/* end for fonts */
+
+
+nav {
+  background-color: rgba(0,0,0,.5);
+  float: left;
+  position: fixed;
+  width: 100%;
+}
+
+.logo {
+  margin: 20px;
+  width: 100px;
+  background-image: url(images/bloc-logo.png);
+}
+
+
+.large-pic {
+  width: 100%;
+}
+
+.medium-pic {
+  width: 70%;
+  background-image: url(images/instagram-pic.jpg);
+}
+
+.left, .right {
+  float: left;
+  width: 50%;
+}
+
+.right {
+  float: right;
+}
+
+ul {
+  list-style-type: none;
+  float: right;
+}
+
+li {
+  float: right;
+  padding: 30px;
+}
+a {
+  text-decoration: none;
+  color: #ffffff;
+ }
+  a:hover {color:#0070BC;
+}
+
+article {
+  padding-top: 100px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 50%;
+}
